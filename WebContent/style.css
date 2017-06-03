@@ -1,0 +1,30 @@
+body {
+	/*background-image: url(img/banner.png);*/
+	background-color: aliceblue;
+}
+
+#header {
+	color : white ;
+	background-color: powderblue ;
+	font-size: 100px ;
+	font-family:serif; 
+	
+}
+
+#top-banner {
+	width : 100% ;
+}
+
+
+#pic {
+    font-size: 500px;
+    padding-left: 366px;
+    color: lavender;
+
+}
+
+#workinP {
+	font-size: 30px; 
+	text-align:center;
+
+	}
