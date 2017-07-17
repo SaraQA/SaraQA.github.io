@@ -17,7 +17,7 @@ span {
 span:before {
 		content : 'Am Sara' ;
 		animation : myanimate infinite 30s;
-		animation-iteration-count:1 ;
+		/*animation-iteration-count:1 ;*/
 
 }
 
