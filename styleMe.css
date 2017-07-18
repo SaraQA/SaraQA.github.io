@@ -14,61 +14,67 @@ h1 {
 span {
 	padding-left:10px;
 }
-span:before {
-		content : 'Am Sara' ;
+span::before {
+		content:'am Sara... Hi !!' ;
 		animation : myanimate infinite 30s;
-		/*animation-iteration-count:1 ;*/
-
+		animation-iteration-count:1 ;		
 }
+
 
 @keyframes myanimate
 {
 	10%
 	{
-		content: 'Am Sara' ;
+		content: 'am Sara... !!' ;
 	}
 	
 	20%
 	{
-		content: 'Am An Enthusiastic Learner' ;
+		content: 'am an Enthusiastic Learner !!' ;
 	}
 	
 	30%
 	{
-		content : 'Am Passionate' ;
+		content : 'am Passionate !!' ;
+		color: red;
 	}
 	
 	40%
 	{
-		content : 'Am A Dreamer' ;
+		content : 'am a Dreamer !!' ;
 	}
 	
 	50%
 	{
 		content : 'Believe in Trying ...(Atleast giving a shot!)' ;
+		
+
 	}
 	60%
 	{
 		content : 'Love Donuts :D  ' ;
+		color: #407fad ;
 	}
 	
 	70%
 	{
-		content : 'Believe in overcoming fear' ;
+		content : 'Believe in overcoming fear !!' ;
 	}
 	
 	80%
 	{
-		content : 'make blunders too :P ' ;
+		content : 'make Blunders too :P ' ;
+		
 	}
 	
 	90%
 	{
-		content : 'Love PopCorn :D ...A LOT' ;
+		content : 'am a Popcorn Lover !!' ;
 	}
 	
 	100%
 	{
-		content : 'Love To Be Happy :)' ;
+		content : 'Love to be Happy :)' ;
+		color: gray ;
 	}
 }
