@@ -16,7 +16,7 @@ span {
 }
 span::before {
 		content:'am Sara... !!' ;
-		animation : myanimate infinite 30s;
+		animation : myanimate 30s;
 		animation-iteration-count:1 ;		
 }
 
