@@ -15,7 +15,7 @@ span {
 	padding-left:10px;
 }
 span::before {
-		content:'am Sara... Hi !!' ;
+		content:'am Sara... !!' ;
 		animation : myanimate infinite 30s;
 		animation-iteration-count:1 ;		
 }
