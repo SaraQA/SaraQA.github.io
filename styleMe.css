@@ -16,14 +16,15 @@ span {
 }
 span::before {
 		content:'am Sara... !!' ;
-		animation : myanimate 30s;
-		animation-iteration-count:1 ;		
+		animation : myanimate infinite 30s;
+		animation-iteration-count:1 ;
+		color:red ;		
 }
 
 
 @keyframes myanimate
 {
-	10%
+	0%
 	{
 		content: 'am Sara... !!' ;
 	}
@@ -53,12 +54,13 @@ span::before {
 	60%
 	{
 		content : 'Love Donuts :D  ' ;
-		color: #407fad ;
 	}
 	
 	70%
 	{
 		content : 'Believe in overcoming fear !!' ;
+		color: #384dc4 ;
+
 	}
 	
 	80%
