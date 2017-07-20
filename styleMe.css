@@ -1,75 +1,84 @@
 body {
 	margin:0px;
 	padding:0px;
-	background: pink ;
+	background-image: url('ImagesAboutMe/intro.png') ;
+	background-position:center;
+	background-size:cover ;
+	background-repeat:no-repeat;
+	animation : mypic infinite 80s ;
+	animation-iteration-count:1 ;
+	
 }
 
 
 h1 {
-	margin: 100px 0 0 350px ;
-	font-size : 80px;
-	color: white;
+	margin-left:30px;
+	margin-top:480px;
+	font-size : 65px;
+	color: black;
 }
 
 span {
 	padding-left:10px;
-}
-span::before {
-		content:'am Sara... !!' ;
-		animation : myanimate infinite 30s;
-		animation-iteration-count:1 ;
-		color:red ;		
-}
+} 
 
+span::before {
+	
+		content:'am Sara... !!' ;
+		animation : myanimate infinite 80s;
+		animation-iteration-count:1 ;
+		color:red ;
+}
 
 @keyframes myanimate
 {
-	0%
+	5%
 	{
-		content: 'am Sara... !!' ;
+		content: 'am Sara... !!' ;		
 	}
 	
-	20%
+	12%
 	{
 		content: 'am an Enthusiastic Learner !!' ;
 	}
 	
-	30%
+	22%
 	{
 		content : 'am Passionate !!' ;
 		color: red;
 	}
 	
-	40%
+	32%
 	{
 		content : 'am a Dreamer !!' ;
 	}
 	
-	50%
+	42%
 	{
 		content : 'Believe in Trying ...(Atleast giving a shot!)' ;
-		
-
 	}
-	60%
+	52%
 	{
 		content : 'Love Donuts :D  ' ;
 	}
 	
-	70%
+	62%
+	{
+		content : 'Love Donuts ..a lot :P ' ;
+	}
+	
+	72%
 	{
 		content : 'Believe in overcoming fear !!' ;
 		color: #384dc4 ;
-
 	}
 	
-	80%
+	82%
 	{
-		content : 'make Blunders too :P ' ;
-		
+		content : 'make Blunders too :P ' ;		
 	}
 	
-	90%
+	92%
 	{
 		content : 'am a Popcorn Lover !!' ;
 	}
@@ -79,4 +88,63 @@ span::before {
 		content : 'Love to be Happy :)' ;
 		color: gray ;
 	}
+}
+
+@keyframes mypic 
+{
+	5%
+	{
+		background-image: url('ImagesAboutMe/intro.png') ;
+	}
+	
+	10%
+	{
+		background-image: url('ImagesAboutMe/1.learner.png') ;
+	}
+	
+	20%
+	{
+		background-image: url('ImagesAboutMe/2.passion.png') ;
+	}
+	
+	30%
+	{
+		background-image: url('ImagesAboutMe/3.dreamer.png') ;
+	}
+	
+	40%
+	{
+		background-image: url('ImagesAboutMe/4.try.png') ;
+	}	
+	
+	50%
+	{
+		background-image: url('ImagesAboutMe/5.donut1.png') ; 
+	}
+	
+	60%
+	{
+		background-image: url('ImagesAboutMe/5.donut2.png') ; 		
+	}
+	
+	70%
+	{
+		background-image: url('ImagesAboutMe/6.overcomeFears.png') ;		
+	}
+	
+	80%
+	{
+		background-image: url('ImagesAboutMe/7.blunder.png') ; 	
+	}
+	
+	90%
+	{
+		background-image: url('ImagesAboutMe/9.popcorn.png') ; 	
+	}
+	
+	100%
+	{
+		background-image: url('ImagesAboutMe/10.happy.png') ; 	
+	}
+	
 }
