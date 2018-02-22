@@ -1,16 +1,27 @@
 body {
 	margin:0px;
 	padding:0px;
-	background-image: url('ImagesAboutMe/intro.png') ;
+	background-image: url('../ImagesAboutMe/intro.png') ;
 	background-position:center;
 	background-size:cover ;
 	background-repeat:no-repeat;
-	animation : mypic infinite 80s ;
+	animation : mypic infinite 60s ;
 	animation-iteration-count:1 ;
 	
 }
 
-
+a 
+{
+	position:fixed ;
+	bottom:15px;
+	right:15px;
+	font-size : 30px ;
+	color : grey ;
+	text-decoration:none;
+	font-weight:bold ;
+	border : 5px dotted black;
+	padding:5px;
+}
 h1 {
 	margin-left:30px;
 	margin-top:480px;
@@ -25,7 +36,7 @@ span {
 span::before {
 	
 		content:'am Sara... !!' ;
-		animation : myanimate infinite 80s;
+		animation : myanimate infinite 60s;
 		animation-iteration-count:1 ;
 		color:red ;
 }
@@ -94,57 +105,81 @@ span::before {
 {
 	5%
 	{
-		background-image: url('ImagesAboutMe/intro.png') ;
+		background-image: url('../ImagesAboutMe/intro.png') ;
+	}
+	
+	8%
+	{
+		background-color : white ;
 	}
 	
 	10%
 	{
-		background-image: url('ImagesAboutMe/1.learner.png') ;
+		background-image: url('../ImagesAboutMe/1.learner.png') ;
+	}
+	
+	18%
+	{
+		background-color : white;
 	}
 	
 	20%
 	{
-		background-image: url('ImagesAboutMe/2.passion.png') ;
+		background-image: url('../ImagesAboutMe/2.passion.png') ;
+	}
+	
+	28%
+	{
+		background-color : white;
 	}
 	
 	30%
 	{
-		background-image: url('ImagesAboutMe/3.dreamer.png') ;
+		background-image: url('../ImagesAboutMe/3.dreamer.png') ;
+	}
+	
+	38%
+	{
+		background-color : white;
 	}
 	
 	40%
 	{
-		background-image: url('ImagesAboutMe/4.try.png') ;
+		background-image: url('../ImagesAboutMe/4.try.png') ;
 	}	
 	
+	48%
+	{
+		background-color : white;
+	}
 	50%
 	{
-		background-image: url('ImagesAboutMe/5.donut1.png') ; 
+		background-image: url('../ImagesAboutMe/5.donut1.png') ; 
 	}
 	
 	60%
 	{
-		background-image: url('ImagesAboutMe/5.donut2.png') ; 		
+		background-image: url('../ImagesAboutMe/5.donut2.png') ; 		
 	}
 	
 	70%
 	{
-		background-image: url('ImagesAboutMe/6.overcomeFears.png') ;		
+		background-image: url('../ImagesAboutMe/6.overcomeFears.png') ;		
 	}
 	
 	80%
 	{
-		background-image: url('ImagesAboutMe/7.blunder.png') ; 	
+		background-image: url('../ImagesAboutMe/7.blunder.png') ; 	
 	}
 	
 	90%
 	{
-		background-image: url('ImagesAboutMe/9.popcorn.png') ; 	
+		background-image: url('../ImagesAboutMe/9.popcorn.png') ; 	
 	}
 	
 	100%
 	{
-		background-image: url('ImagesAboutMe/10.happy.png') ; 	
+		background-image: url('../ImagesAboutMe/10.happy.png') ; 	
 	}
 	
 }
