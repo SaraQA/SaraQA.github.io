@@ -5,7 +5,7 @@ body {
 	background-position:center;
 	background-size:cover ;
 	background-repeat:no-repeat;
-	animation : mypic infinite 60s ;
+	animation : mypic infinite 80s ;
 	animation-iteration-count:1 ;
 	
 }
@@ -36,7 +36,7 @@ span {
 span::before {
 	
 		content:'am Sara... !!' ;
-		animation : myanimate infinite 60s;
+		animation : myanimate infinite 80s;
 		animation-iteration-count:1 ;
 		color:red ;
 }
@@ -48,48 +48,54 @@ span::before {
 		content: 'am Sara... !!' ;		
 	}
 	
-	12%
+	
+	15%
 	{
 		content: 'am an Enthusiastic Learner !!' ;
 	}
 	
-	22%
+	
+	25%
 	{
 		content : 'am Passionate !!' ;
 		color: red;
 	}
+
 	
-	32%
+	35%
 	{
 		content : 'am a Dreamer !!' ;
 	}
 	
-	42%
+	
+	
+	45%
 	{
-		content : 'Believe in Trying ...(Atleast giving a shot!)' ;
+		content : 'Believe in trying..atleast giving a shot!' ;
 	}
-	52%
+
+	55%
 	{
 		content : 'Love Donuts :D  ' ;
 	}
 	
-	62%
+	65%
 	{
 		content : 'Love Donuts ..a lot :P ' ;
 	}
 	
-	72%
+	75%
 	{
 		content : 'Believe in overcoming fear !!' ;
 		color: #384dc4 ;
 	}
 	
-	82%
+	85%
 	{
 		content : 'make Blunders too :P ' ;		
 	}
 	
-	92%
+	95%
 	{
 		content : 'am a Popcorn Lover !!' ;
 	}
@@ -108,73 +114,99 @@ span::before {
 		background-image: url('../ImagesAboutMe/intro.png') ;
 	}
 	
-	8%
+	7%
 	{
-		background-color : white ;
+		background-image : url('../ImagesAboutMe/blank.png')  ;
 	}
 	
-	10%
+	15%
 	{
 		background-image: url('../ImagesAboutMe/1.learner.png') ;
 	}
 	
-	18%
+	17%
 	{
-		background-color : white;
+		background-image : url('../ImagesAboutMe/blank.png');
 	}
 	
-	20%
+	25%
 	{
 		background-image: url('../ImagesAboutMe/2.passion.png') ;
 	}
 	
-	28%
+	27%
 	{
-		background-color : white;
+		background-image : url('../ImagesAboutMe/blank.png');
 	}
 	
-	30%
+	35%
 	{
 		background-image: url('../ImagesAboutMe/3.dreamer.png') ;
 	}
 	
-	38%
+	37%
 	{
-		background-color : white;
+		background-image : url('../ImagesAboutMe/blank.png');
 	}
 	
-	40%
+	45%
 	{
 		background-image: url('../ImagesAboutMe/4.try.png') ;
 	}	
 	
-	48%
+	47%
 	{
-		background-color : white;
+		background-image : url('../ImagesAboutMe/blank.png');
 	}
-	50%
+	
+	55%
 	{
 		background-image: url('../ImagesAboutMe/5.donut1.png') ; 
 	}
 	
-	60%
+	57%
+	{
+		background-image : url('../ImagesAboutMe/blank.png');
+	}
+	
+	65%
 	{
 		background-image: url('../ImagesAboutMe/5.donut2.png') ; 		
 	}
 	
-	70%
+	67%
+	{
+		background-image : url('../ImagesAboutMe/blank.png');
+	}
+	
+	75%
 	{
 		background-image: url('../ImagesAboutMe/6.overcomeFears.png') ;		
 	}
 	
-	80%
+	77%
+	{
+		background-image : url('../ImagesAboutMe/blank.png');
+	}
+	
+	85%
 	{
 		background-image: url('../ImagesAboutMe/7.blunder.png') ; 	
 	}
 	
-	90%
+	87%
+	{
+		background-image : url('../ImagesAboutMe/blank.png');
+	}
+	
+	95%
 	{
 		background-image: url('../ImagesAboutMe/9.popcorn.png') ; 	
+	}
+	
+	96%
+	{
+		background-image : url('../ImagesAboutMe/blank.png');
 	}
 	
 	100%
