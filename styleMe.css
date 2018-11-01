@@ -7,8 +7,7 @@ body {
 	background-repeat:no-repeat;
 	animation : mypic infinite 80s ;
 	animation-iteration-count:1 ;
-	animation : myanimate infinite 80s;
-	animation-iteration-count:1 ;
+	
 }
 
 a 
